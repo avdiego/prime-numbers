@@ -8,7 +8,7 @@ describe('logicalOperators tests', () => {
   });
 
   it('should return false if the input is not a prime number', () => {
-    const result = isItAPrimeNumber(12);
+    const result = isItAPrimeNumber(4);
 
     expect(result).toBeFalsy();
   });

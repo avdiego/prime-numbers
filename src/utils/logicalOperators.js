@@ -4,7 +4,8 @@
  */
 
 export default (number) => {
-  for (let i = 2; i < Math.trunc(number / 2); i += 1) {
+  for (let i = 2; i < Math.trunc(number / 2) + 1; i += 1) {
+    console.log(i);
     if (!(number % i)) {
       return false;
     }
